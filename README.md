@@ -30,12 +30,12 @@ Aplikasi ini adalah contoh implementasi drag-and-drop menggunakan Flutter. Aplik
 ## Struktur File
 
 ```plaintext
+global_state/
+|-lib/
+   |-global_state.dart # Paket untuk manajemen state global.
 lib/
-|- main.dart       # Titik masuk aplikasi.
-|- global_state/   # Paket untuk manajemen state global.
-   |- global_state.dart
-|- drag_and_drop/  # Paket untuk fitur drag-and-drop.
-   |- draggable_widget.dart
+   |- main.dart       # Titik masuk aplikasi.
+   |- drag_and_drop/  # Paket untuk fitur drag-and-drop.
 ```
 
 ## Cara Kerja Aplikasi
@@ -99,7 +99,3 @@ TBD
 
 ## Kontribusi
 Jika Anda ingin berkontribusi, silakan buat pull request atau laporkan masalah pada repository ini.
-
-## Lisensi
-Aplikasi ini dilisensikan di bawah lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
-
