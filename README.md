@@ -93,9 +93,3 @@ dependencies:
    ```bash
    flutter run
    ```
-
-## Screenshots
-TBD
-
-## Kontribusi
-Jika Anda ingin berkontribusi, silakan buat pull request atau laporkan masalah pada repository ini.
